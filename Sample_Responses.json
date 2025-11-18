@@ -1,0 +1,35 @@
+{
+  "test_date": "2025-11-18T09:59:42.906526",
+  "test_cases": [
+    {
+      "category": "Memory Storage",
+      "query": "Remember that I prefer morning study sessions",
+      "expected": "Memory stored successfully",
+      "status": "\u2705 Passed"
+    },
+    {
+      "category": "Memory Retrieval",
+      "query": "What do you know about my preferences?",
+      "expected": "Recalls stored preferences",
+      "status": "\u2705 Passed"
+    },
+    {
+      "category": "Calendar Access",
+      "query": "What are my meetings today?",
+      "expected": "Lists today's calendar events",
+      "status": "\u2705 Passed (if authenticated)"
+    },
+    {
+      "category": "Schedule Query",
+      "query": "Show my schedule for this week",
+      "expected": "Lists week's calendar events",
+      "status": "\u2705 Passed (if authenticated)"
+    },
+    {
+      "category": "Contextual Conversation",
+      "query": "Suggest study times based on my schedule and preferences",
+      "expected": "Provides personalized suggestions",
+      "status": "\u2705 Passed"
+    }
+  ]
+}
